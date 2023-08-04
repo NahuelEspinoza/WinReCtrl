@@ -68,6 +68,7 @@ Crea un archivo por lotes (por ejemplo, "configurar_remoto.bat") que ejecute el 
 
 
 batch :
+
 @echo off
 setlocal
 
@@ -77,6 +78,7 @@ for /f %%i in (computers.txt) do (
 )
 
 echo Proceso completado.
+
 pause
 
 
